@@ -35,6 +35,10 @@ h2{
     padding: 30px 5px 0; 
 }
 
+h3 {
+    padding: 10px ; 
+}
+
 p{
     padding: 10px 5px;
 }
@@ -47,5 +51,5 @@ aside{
 footer{
     text-align: center;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
 }

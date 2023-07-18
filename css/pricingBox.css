@@ -11,23 +11,26 @@ section{
     background-color: rgb(147, 217, 233);
     height: 100vh;
     display: flex;
-    align-content: center;
     align-items: center;
     justify-content: center;
+    
 }
 
 .carta{
     background-color: rgb(255, 255, 255);
-    text-align: center;
-    align-content: space-between;
-    margin: 200px 20px;
+    margin: 0 20px;
     width: 300px;
     height: 480px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 10px;
 }
 
 h1{
     background-color: rgb(250, 128, 114);
     padding: 40px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .espacio {
@@ -39,11 +42,24 @@ p{
 }
 
 hr{
+    margin: 6px 0;
     text-align: center;
+    width: 80%;
+    opacity: 0.5;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    height: 310px;
     
 }
 
 button{
-    align-self: stretch;
-    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 45px;
+    background-color: rgba(192, 188, 188, 0.493);
 }
